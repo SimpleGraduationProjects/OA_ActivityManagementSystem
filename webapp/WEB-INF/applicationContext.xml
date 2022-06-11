@@ -11,7 +11,7 @@
 	<!-- 配置数据源的bean -->
 	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
 		<property name="driverClass" value="com.mysql.jdbc.Driver" />
-		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/oa?characterEncoding=utf-8" />
+		<property name="jdbcUrl" value="jdbc:mysql://localhost:3306/graduation_oa?characterEncoding=utf-8" />
 		<property name="user" value="root" />
 		<property name="password" value="123456" />
 	</bean>

@@ -14,7 +14,7 @@ public class TestJDBC {
 
 	public static void main(String[] args) throws Exception {
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/oa", "root", "123456");
+		Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/graduation_oa", "root", "123456");
 		
 		Statement stmt = conn.createStatement();
 		ResultSet rs = stmt.executeQuery("select BYTES_ from act_ge_bytearray where ID_ = 18");
